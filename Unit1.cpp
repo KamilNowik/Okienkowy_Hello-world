@@ -14,4 +14,21 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 {
 }
 //---------------------------------------------------------------------------
- 
+
+
+
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+
+if (Label1->Visible==false)
+{
+   Label1->Visible=true;
+   Button1->Caption="Schowam siê!";
+}
+else
+{
+   Label1->Visible=false;
+   Button1->Caption="Poka¿ê siê!!";
+   }
+}
+//---------------------------------------------------------------------------
